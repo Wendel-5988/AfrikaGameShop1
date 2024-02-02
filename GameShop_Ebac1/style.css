@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 16px 0;
+  background-color: rgb(0, 0, 0);
+  color: rgb(238, 187, 0);
+  font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+header, 
+section h2,
+section h3 {
+  font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+header nav li{
+  display: inline;
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+header nav li a {
+  color: rgb(255, 217, 82);
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+header nav li a:hover {
+  background-color: rgba(255, 211, 52, 0.702);
+  color: black;
+  font-weight: bolder;
+  border: 2px solid rgb(255, 200, 0); 
+  transition: 100ms linear;
+}
+
+
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .container,
+section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body,
+input,
+textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+.brands-list img {
+  height: 24px;
+}
+
+.brands-list li {
+  display: inline;
+}
+
+section .container {
+  align-items: flex-start;
+}
+
+section {
+  padding: 24px 0;
+}
+section h2,
+section h3 {
+  margin-bottom: 16px;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+.imgLoja {
+  margin-right: 35px;
+}
+
+.social-links img {
+  height: 24px;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#contact .container {
+  display: block;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+}
+
+form input, 
+form textarea, 
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+form input {
+  background-color: rgba(238, 186, 0, 0.178);
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
+  background-color: rgba(238, 186, 0, 0.183);
+}
+
+input:focus, textarea:focus {
+  outline-color: rgb(255, 200, 0);
+}
+
+form button {
+  background-color:rgb(0, 0, 0);
+  color: rgb(255, 200, 0);
+  font-weight: bolder;
+  font-family: 'Rubik Doodle Shadow', system-ui;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: rgba(238, 186, 0, 0.692);
+  color: black;
+  border: 3px solid black; 
+  transition: 300ms linear;
+}
+
+footer{
+  padding: 16px 0;
+  background-color: rgb(0, 0, 0);
+  color: rgb(238, 187, 0);
+  justify-content: center;
+}
+footer .container p{
+  display: flex;
+  justify-content: center;
+}
